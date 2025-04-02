@@ -3,4 +3,4 @@
 import datetime
 
 now = datetime.datetime.now()
-print(f"✅ Script ran successfully at  babe its  updated now .....{now}")
+prin(f"✅ Script ran successfully at  babe its  updated now .....{now}")
