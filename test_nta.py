@@ -1,6 +1,13 @@
 # test_nta.py
 
-import\ff datetime
+from datetime import datetime
 
-now = datetime.datetime.now()
-print(f"✅ Script ran successfully at  babe its  updated now .....{now}")
+def log_status(message: str):
+    timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    print(f"[✅ SUCCESS] {message}")
+    print(f"🕒 Timestamp  : {timestamp}")
+    print(f"📦 Environment: Test")
+    print(f"💬 Note       : Script executed flawlessly!\n")
+
+if __name__ == "__main__":
+    log_status("Test script executed — Jenkins cron is working perfectly 🚀")
